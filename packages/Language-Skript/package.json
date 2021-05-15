@@ -1,0 +1,44 @@
+{
+  "_from": "https://www.atom.io/api/packages/language-skript/versions/2.1.3/tarball",
+  "_id": "Language-Skript@2.1.3",
+  "_inBundle": false,
+  "_integrity": "sha512-fxDdHLM9X3JQqRgW9YgKk5SB4JnVsbRFdiCjNk9iQYw3cBeKLZ0updrktmN3ksWAUrYEA+7Zq4iK4d69BDo1EA==",
+  "_location": "/Language-Skript",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/language-skript/versions/2.1.3/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/language-skript/versions/2.1.3/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/language-skript/versions/2.1.3/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/language-skript/versions/2.1.3/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/language-skript/versions/2.1.3/tarball",
+  "_shasum": "cf09f8cc673f0b58043c53d3ef97b7cee758ef9e",
+  "_spec": "https://www.atom.io/api/packages/language-skript/versions/2.1.3/tarball",
+  "_where": "C:\\Users\\SIEGFR~1\\AppData\\Local\\Temp\\apm-install-dir-2021327-5436-1m75omi.osho",
+  "bugs": {
+    "url": "https://github.com/Skript-Atom/Language-Skript/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Skript-Language, Easier coding!",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/Skript-Atom/Language-Skript#readme",
+  "keywords": [
+    "Skript"
+  ],
+  "license": "GNU General Public License v3.0",
+  "name": "Language-Skript",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skript-Atom/Language-Skript.git"
+  },
+  "version": "2.1.3"
+}

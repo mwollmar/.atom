@@ -1,0 +1,61 @@
+{
+  "_from": "https://www.atom.io/api/packages/gitlab-integration/versions/0.4.8/tarball",
+  "_id": "gitlab-integration@0.4.8",
+  "_inBundle": false,
+  "_integrity": "sha512-2EeqxViWDtAn28SPOc5ihoaCh7wzk+9SYJTtXotbBzdBgaDGcnT1Olb7qejnmCSjzKue1tnYtceDMBvONSyGCA==",
+  "_location": "/gitlab-integration",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/gitlab-integration/versions/0.4.8/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/gitlab-integration/versions/0.4.8/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/gitlab-integration/versions/0.4.8/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/gitlab-integration/versions/0.4.8/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/gitlab-integration/versions/0.4.8/tarball",
+  "_shasum": "36c206838ea67e719fa62fc2dc8b3b095caec453",
+  "_spec": "https://www.atom.io/api/packages/gitlab-integration/versions/0.4.8/tarball",
+  "_where": "C:\\Users\\SIEGFR~1\\AppData\\Local\\Temp\\apm-install-dir-2021410-9796-u1y1m1.pp6q",
+  "bugs": {
+    "url": "https://github.com/blakawk/gitlab-integration/issues"
+  },
+  "bundleDependencies": false,
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
+  "dependencies": {
+    "git-url-parse": "^11.1.1",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5"
+  },
+  "deprecated": false,
+  "description": "Track gitlab pipelines state of your project in Atom editor and more",
+  "devDependencies": {
+    "nock": "^10.0.4"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/blakawk/gitlab-integration#readme",
+  "keywords": [
+    "ui",
+    "gitlab",
+    "git"
+  ],
+  "license": "MIT",
+  "main": "./lib/gitlab-integration",
+  "name": "gitlab-integration",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blakawk/gitlab-integration.git"
+  },
+  "version": "0.4.8"
+}

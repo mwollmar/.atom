@@ -1,0 +1,36 @@
+{
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Buildium",
+          "submenu": [
+            {
+              "label": "Build project",
+              "command": "buildium:trigger"
+            },
+            {
+              "label": "Terminate build",
+              "command": "buildium:stop"
+            },
+            {
+              "label": "Select active target",
+              "command": "buildium:select-active-target"
+            },
+            {
+              "label": "Refresh targets",
+              "command": "buildium:refresh-targets"
+            },
+            {
+              "label": "Toggle panel",
+              "command": "buildium:toggle-panel"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+
+  "context-menu": {}
+}

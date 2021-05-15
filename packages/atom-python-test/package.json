@@ -1,0 +1,52 @@
+{
+  "_from": "https://www.atom.io/api/packages/atom-python-test/versions/1.0.1/tarball",
+  "_id": "atom-python-test@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-nJU0tfRbjFbsSws8gAgyJWv3/Z5CYCN+5AhS0uZ9U6i/vLVjkbUCxeqTKmh0eUpYvaMSuZ44ylWBQCMsi5svCA==",
+  "_location": "/atom-python-test",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/atom-python-test/versions/1.0.1/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/atom-python-test/versions/1.0.1/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/atom-python-test/versions/1.0.1/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/atom-python-test/versions/1.0.1/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/atom-python-test/versions/1.0.1/tarball",
+  "_shasum": "3d411993e74dc846a256af912227b78de064fd70",
+  "_spec": "https://www.atom.io/api/packages/atom-python-test/versions/1.0.1/tarball",
+  "_where": "C:\\Users\\SIEGFR~1\\AppData\\Local\\Temp\\apm-install-dir-2021327-3032-17jzsft.6oyzg",
+  "bugs": {
+    "url": "https://github.com/pghilardi/atom-python-test/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "junit-viewer": "*",
+    "tmp": "*"
+  },
+  "deprecated": false,
+  "description": "Run py.test tests using Python",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/pghilardi/atom-python-test#readme",
+  "keywords": [
+    "python",
+    "tests",
+    "runner",
+    "py.test",
+    "pytest"
+  ],
+  "license": "MIT",
+  "main": "./lib/atom-python-test",
+  "name": "atom-python-test",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pghilardi/atom-python-test.git"
+  },
+  "version": "1.0.1"
+}

@@ -1,0 +1,48 @@
+{
+  "_from": "https://www.atom.io/api/packages/run-python-simply/versions/0.6.0/tarball",
+  "_id": "run-python-simply@0.6.0",
+  "_inBundle": false,
+  "_integrity": "sha512-bBuahXPrvWecZaXyWRgXHEYrP4dkWuBAiPF1IxqncELhPZJcwNwhRnrpScOgmdnap1u2f0mAh7SS6aXTx5ERhA==",
+  "_location": "/run-python-simply",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/run-python-simply/versions/0.6.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/run-python-simply/versions/0.6.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/run-python-simply/versions/0.6.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/run-python-simply/versions/0.6.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/run-python-simply/versions/0.6.0/tarball",
+  "_shasum": "38e2e5571c9e21c5d737fcef4be33b60f7111489",
+  "_spec": "https://www.atom.io/api/packages/run-python-simply/versions/0.6.0/tarball",
+  "_where": "C:\\Users\\SIEGFR~1\\AppData\\Local\\Temp\\apm-install-dir-2021327-10052-10q7ri2.mtpy",
+  "activationCommands": {
+    "atom-workspace": "run-python-simply:toggle"
+  },
+  "bugs": {
+    "url": "https://github.com/techstay/run-python-simply/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Run a python file in a terminal",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/techstay/run-python-simply#readme",
+  "keywords": [
+    "python"
+  ],
+  "license": "MIT",
+  "main": "./lib/run-python-simply",
+  "name": "run-python-simply",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techstay/run-python-simply.git"
+  },
+  "version": "0.6.0"
+}

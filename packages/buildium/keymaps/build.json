@@ -1,0 +1,30 @@
+{
+  ".platform-darwin atom-workspace, .platform-darwin atom-text-editor": {
+    "cmd-alt-b": "buildium:trigger",
+    "cmd-alt-v": "buildium:toggle-panel",
+    "cmd-alt-g": "buildium:error-match",
+    "cmd-alt-h": "buildium:error-match-first",
+    "cmd-alt-t": "buildium:select-active-target"
+  },
+  ".platform-linux atom-workspace, .platform-linux atom-text-editor, .platform-win32 atom-workspace, .platform-win32 atom-text-editor": {
+    "ctrl-alt-b": "buildium:trigger",
+    "ctrl-alt-v": "buildium:toggle-panel",
+    "ctrl-alt-g": "buildium:error-match",
+    "ctrl-alt-h": "buildium:error-match-first",
+    "ctrl-alt-t": "buildium:select-active-target"
+  },
+  "atom-workspace, atom-text-editor": {
+    "f9": "buildium:trigger",
+    "f8": "buildium:toggle-panel",
+    "f4": "buildium:error-match",
+    "shift-f4": "buildium:error-match-first",
+    "f7": "buildium:select-active-target"
+  },
+  ".build": {
+    "escape": "buildium:stop"
+  },
+  ".build-confirm": {
+    "enter": "buildium:confirm",
+    "escape": "buildium:no-confirm"
+  }
+}

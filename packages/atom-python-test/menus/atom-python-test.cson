@@ -1,0 +1,30 @@
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Py.test'
+      'submenu': [
+        {
+          'label': 'Run test under cursor'
+          'command': 'atom-python-test:run-test-under-cursor'
+        }
+        {
+          'label': 'Run all tests on file'
+          'command': 'atom-python-test:run-all-tests'
+        }
+      ]
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Atom Python Test'
+      'submenu': [
+        {
+          'label': 'Toggle tests results'
+          'command': 'atom-python-test:toggle-test-results'
+        }
+      ]
+    ]
+  }
+]

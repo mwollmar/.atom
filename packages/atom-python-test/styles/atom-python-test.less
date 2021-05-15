@@ -1,0 +1,42 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.atom-python-test {
+  overflow-y: scroll;
+}
+
+.tests {
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tests tr {
+    border-bottom: 0.25px solid #383838;
+}
+
+.tests td {
+    white-space:pre-wrap;
+}
+
+.tests thead {
+  background-color: #525452;
+  color: white;
+}
+
+.tests td {
+  // white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+td.failure-line {
+  color: #ed766b;
+}
+
+td.success-line {
+  color: #83e695;
+}

@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Run Python Simply",
+        "command": "run-python-simply:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Run Python Simply",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "run-python-simply:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

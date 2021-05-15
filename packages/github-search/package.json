@@ -1,0 +1,83 @@
+{
+  "_from": "https://www.atom.io/api/packages/github-search/versions/0.1.0/tarball",
+  "_id": "github-search@0.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-EFvc7Y/jEypiFKzPvdEZArI1YB7tu8/Wg/tbE3i5cVN8juaXa1IoNnKy/+hhp45stsSPOjdi8S5oidWQSti/5A==",
+  "_location": "/github-search",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/github-search/versions/0.1.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/github-search/versions/0.1.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/github-search/versions/0.1.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/github-search/versions/0.1.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/github-search/versions/0.1.0/tarball",
+  "_shasum": "e230db93cfb3ccbe6b1d575dc909bb042a7db0c3",
+  "_spec": "https://www.atom.io/api/packages/github-search/versions/0.1.0/tarball",
+  "_where": "C:\\Users\\SIEGFR~1\\AppData\\Local\\Temp\\apm-install-dir-2021410-7152-2nk5nl.j7hbk",
+  "activationCommands": {
+    "atom-workspace": "github-search:toggle"
+  },
+  "bugs": {
+    "url": "https://github.com/aki77/atom-github-search/issues"
+  },
+  "bundleDependencies": false,
+  "configSchema": {
+    "grammarLanguageMappings": {
+      "order": 1,
+      "type": "array",
+      "default": [
+        {
+          "name": "Ruby on Rails",
+          "language": "Ruby"
+        },
+        {
+          "name": "Babel ES6 JavaScript",
+          "language": "JavaScript"
+        }
+      ],
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "language": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "dependencies": {
+    "@aki77/atom-input-dialog": "^0.1.3"
+  },
+  "deprecated": false,
+  "description": "Github search for selected text",
+  "devDependencies": {
+    "eslint": "^2.11.0",
+    "eslint-config-airbnb-base": "3.0.1",
+    "eslint-plugin-import": "1.8.1"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/aki77/atom-github-search#readme",
+  "keywords": [
+    "github",
+    "search"
+  ],
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "github-search",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aki77/atom-github-search.git"
+  },
+  "version": "0.1.0"
+}

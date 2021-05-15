@@ -1,0 +1,59 @@
+{
+  "_from": "https://www.atom.io/api/packages/python-debugger/versions/0.2.0/tarball",
+  "_id": "python-debugger@0.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-2s69+C+gzE5nzZgfNORBWRcEZeO+RUamrzPJGGyuzoiR7ttZULo5tD7juwP5nT6U6ugTRQMU+xRQTUyjNFvKqw==",
+  "_location": "/python-debugger",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/python-debugger/versions/0.2.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/python-debugger/versions/0.2.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/python-debugger/versions/0.2.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/python-debugger/versions/0.2.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/python-debugger/versions/0.2.0/tarball",
+  "_shasum": "bdc8134319c380761a3224a955ef1f69a86b2518",
+  "_spec": "https://www.atom.io/api/packages/python-debugger/versions/0.2.0/tarball",
+  "_where": "C:\\Users\\SIEGFR~1\\AppData\\Local\\Temp\\apm-install-dir-2021327-4800-z4ejxn.tn9lo",
+  "activationCommands": {
+    "atom-workspace": [
+      "python-debugger:toggle",
+      "python-debugger:breakpoint"
+    ]
+  },
+  "activationHooks": [
+    "language-python:grammar-used"
+  ],
+  "bugs": {
+    "url": "https://github.com/dpo/atom-python-debugger/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.0"
+  },
+  "deprecated": false,
+  "description": "Develop and Debug python projects",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/dpo/atom-python-debugger#readme",
+  "keywords": [
+    "python",
+    "develop python",
+    "debug python",
+    "pdb"
+  ],
+  "license": "MIT",
+  "main": "./lib/python-debugger",
+  "name": "python-debugger",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpo/atom-python-debugger.git"
+  },
+  "version": "0.2.0"
+}
